@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Trabalho</string>
+    <string name="salario_bruto">Salário bruto: %1$5.2f</string>
+    <string name="salario_liquido">Salário líquido: %1$5.2f</string>
+    <string name="plano_saude">Plano de saúde: %1$5.2f</string>
+    <string name="vale_transporte">Vale transporte:</string>
+    <string name="vale_refeicao">Vale refeição:</string>
+    <string name="vale_alimentacao">Vale alimentação: </string>
+    <string name="dependentes">Número de dependentes</string>
+    <string name="transporte">Vale transporte: %1$5.2f</string>
+    <string name="refeicao">Vale refeição: %1$5.2f</string>
+    <string name="alimentacao">Vale alimentação: %1$5.2f</string>
+    <string name="inss">INSS: %1$5.2f</string>
+    <string name="irrf">IRRF: %1$5.2f</string>
+    <string name="digite_salario">Digite o salário bruto:</string>
+    <string name="digite_numdep">Digite o número de dependentes:</string>
+    <string name="digite_plano">Escolha o tipo do plano de saúde:</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="voltar">Voltar</string>
+    <string name="valida_vr">selecione uma opção de VR</string>
+    <string name="valida_va">Selecione uma opção de VA</string>
+    <string name="valida_vt">Selecione uma opção de VT</string>
+    <string name="valida_sb">Informe o salario bruto</string>
+    <string name="valida_dependentes">Informe o número de dependentes</string>
+    <string name="holerite">Holerite</string>
+    <string-array name="plano">
+        <item>1-Stantard</item>
+        <item>2-Básico</item>
+        <item>3-Super</item>
+        <item>4-Master</item>
+    </string-array>
+    <string name="title_activity_resultado">ResultadoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

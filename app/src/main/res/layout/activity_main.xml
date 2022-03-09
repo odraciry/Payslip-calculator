@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/digite_salario" />
+
+    <EditText
+        android:id="@+id/sl_bruto"
+        style="@style/estilo_edit" />
+
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/digite_numdep" />
+
+    <EditText
+        android:id="@+id/num_dependentes"
+        style="@style/estilo_edit" />
+
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/digite_plano"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/spinner_plano"
+        style="@style/estilo_base"
+        android:entries="@array/plano"
+
+        />
+
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/vale_transporte"
+        android:visibility="visible" />
+
+    <RadioGroup
+        android:id="@+id/transporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/sim_transporte"
+            style="@style/estilo_radio"
+            android:text="@string/sim"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/nao_transporte"
+            style="@style/estilo_radio"
+            android:text="@string/nao" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/vale_alimentacao" />
+
+    <RadioGroup
+        android:id="@+id/alimentacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/sim_alimentacao"
+            style="@style/estilo_radio"
+            android:text="@string/sim" />
+
+        <RadioButton
+            android:id="@+id/nao_alimentacao"
+            style="@style/estilo_radio"
+            android:text="@string/nao" />
+    </RadioGroup>
+
+
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/vale_refeicao" />
+
+    <RadioGroup
+        android:id="@+id/refeicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/sim_refeicao"
+            style="@style/estilo_radio"
+            android:text="@string/sim" />
+
+        <RadioButton
+            android:id="@+id/nao_refeicao"
+            style="@style/estilo_radio"
+            android:text="@string/nao" />
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/estilo_base"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_calcular"
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/bt_limpar"
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/limpar" />
+
+    </LinearLayout>
+</LinearLayout>

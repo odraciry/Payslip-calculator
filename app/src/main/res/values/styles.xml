@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="estilo_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="estilo_textview" parent="estilo_base">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/azul_1</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="estilo_edit" parent="@style/estilo_base">
+        <item name="android:textSize">14sp</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="estilo_radio">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="holerite" parent="estilo_textview">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="botao">
+        <item name="android:backgroundTint">@color/azul_2</item>
+    </style>
+
+    <style name="salarioL" parent="estilo_textview">
+        <item name="android:textSize">26sp</item>
+        <item name="android:background">@color/azul_3</item>
+    </style>
+</resources>
